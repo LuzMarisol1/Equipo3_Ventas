@@ -1,0 +1,17 @@
+me\tell\mensajes\ModificarSaludosRequest.class
+me\tell\mensajes\ModificarSaludosResponse.class
+me\tell\mensajes\MostrarSaludoResponse.class
+com\example\mensajes\Isaludadores.class
+me\tell\mensajes\BorrarSaludosRequest.class
+com\example\mensajes\MensajesEndPoint.class
+com\example\mensajes\Saludadores.class
+me\tell\mensajes\SaludarRequest.class
+me\tell\mensajes\package-info.class
+me\tell\mensajes\SaludarResponse.class
+me\tell\mensajes\ObjectFactory.class
+com\example\mensajes\MensajesApplication.class
+me\tell\mensajes\BuscarSaludosResponse$Saludador.class
+me\tell\mensajes\BuscarSaludosResponse.class
+me\tell\mensajes\BuscarSaludosRequest.class
+com\example\mensajes\MensajesConfiguracion.class
+me\tell\mensajes\BorrarSaludosResponse.class
