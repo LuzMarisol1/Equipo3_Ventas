@@ -1,0 +1,13 @@
+Para que nuestro proyecto pueda funcionar correctamente en cualquier parte es necesario utilizar el script de la base de datos. A continuación te mostrare una serie de pasos a realizar para crear nuestra base de datos localmente y no presentes problemas.
+Accedemos al repositorio https://github.com/LuzMarisol1/Equipo3_Ventas
+Clonamos, descargamos el zip o abrimos directamente en Github Desktop
+Abrimos Visual Studio code
+Y podemos visualizar un archivo con el siguiente nombre ## ventas_2021_ves.sql
+Abrimos xaamp y encendemos nuestro Apache y Mysql
+Vamos a nuestro navegador y abrimos el url manualmente con http://localhost/phpmyadmin/ o desde xaamp en admin en el apartado MYSQL
+Ya estando dentro damos en crear una nueva Base de datos
+La nombramos con el mismo nombre ventas_2021_ves y damos en crear
+En la siguiente pestaña nos aparecera varios recuadros damos en importar
+buscamos nuestro archivo ventas_2021_ves.sql
+Aceptamos y listo!
+Podemos ocupar n
