@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Datos de la Venta</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="/cliente/cliente-SOAP/css/style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="conte">
+        <a href="/cliente/cliente-SOAP/html/Principal.html">Volver</a>
+    </div>
+
+
+    <div class="for">
+        <h1 id="titulo">Sistema de venta</h1>
+        <p class="titulos">Nombre</p>
+
+        <input id="nombre" type="email" placeholder="Nombre del producto" required>
+
+        <p class="tit">Descripción</p>
+
+        <input id="descripcion" type="text" placeholder="Descripción del  producto" required>
+
+        <p class="tit">Precio</p>
+
+        <input id="precioU" type="number" placeholder="Precio" min="1" max="5000" required="" tabindex="3">
+
+        <p class="tit">Producto Disponible</p>
+
+        <input id="enStock" type="text" placeholder="Productos en stock" required>
+
+        <!--Boton de inicio de sesión-->
+        <div class="boton">
+
+            <input type="Button" value="enviar" onclick="venta()" style="border: 4px; border-radius: 20px; height: 40px; width: 150px; border-top: 20px;  background-color: rgb(245, 230, 30);">
+
+        </div>
+        <script src="/cliente/cliente-SOAP/soap.js"></script>
+</body>
+
+</html>
