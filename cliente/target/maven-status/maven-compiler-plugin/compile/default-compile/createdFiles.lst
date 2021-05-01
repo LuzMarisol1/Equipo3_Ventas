@@ -1,0 +1,16 @@
+me\tell\ventas\EliminarVentaResponse.class
+me\tell\ventas\MostrarVentaRequest.class
+com\example\ventas\Productosv.class
+me\tell\ventas\package-info.class
+me\tell\ventas\ModificarVentaResponse.class
+com\example\ventas\VentasApplication.class
+me\tell\ventas\ModificarVentaRequest.class
+me\tell\ventas\MostrarVentaResponse$EmpleadoV.class
+me\tell\ventas\RealizarVentaResponse.class
+com\example\ventas\IVentas.class
+me\tell\ventas\ObjectFactory.class
+me\tell\ventas\RealizarVentaRequest.class
+me\tell\ventas\MostrarVentaResponse.class
+me\tell\ventas\EliminarVentaRequest.class
+com\example\ventas\VentasEndPoint.class
+com\example\ventas\VentasConfiguracion.class
