@@ -18,10 +18,12 @@
 </head>
 
 <body>
+   
     <div class="container-fluid">
+        <h1 style="font-size: 30px; text-align: center; margin:30px;"> Registro de ventas</h1>
         <div class="row">
             <div class="col">
-                <table id="tablaArticulos" class="table table-striped table-bordered" style="width:100%">
+                <table id="tablaArticulos" class="table table-striped table-bordered" style="width:80%; margin-left: 100px;">
                     <thead>
                         <tr>
                             <th>ID</th>
@@ -31,17 +33,17 @@
                             <th>STOCK</th>
                         </tr>
                     </thead>
-                    <tbody id = "tabla" >
+                    <tbody id="tabla">
                     </tbody>
                 </table>
             </div>
         </div>
     </div>
-    
-    <label for="r">resultado:</label><input type="text" id="r"/><br />
-    <input type="Button" value="enviar" onclick="soap()">
 
-  
+    <label style = "margin-left: 80px;" 100px; for="r">resultado:</label><input  style ="margin-left: 10px;" type="text" id="r" /><br />
+    <input type="Button" value="enviar" onclick="soap()"style = "margin-left: 80px;">
+
+
 
     <script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script type="text/javascript" language="javascript"
@@ -73,7 +75,7 @@
             });
         });
     </script>
-      <script src="/cliente/cliente-SOAP/soap.js"></script>
+    <script src="/cliente/cliente-SOAP/soap.js"></script>
 
 </body>
 
