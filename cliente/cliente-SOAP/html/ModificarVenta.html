@@ -3,23 +3,71 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
     <title>Modificar Venta</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/cliente/cliente-SOAP/css/estilos.css">
+
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 
 <body>
-    <form action=""></form>
-    <input id="idproducto" type="number" placeholder="id s" required>
-    <input id="nombre" type="text" placeholder="Nombre" required>
-    <input id="precioU" type="number" placeholder="Precio" required>
+    <form name="form1">
 
-    <label for="r">resultado:</label><input type="text" id="r"><br>
-    <input type="button" onclick="modificarv()" value="Modificar">
+        <table width="200" id="enfasis-columna">
+            <input type="hidden" name="oculto" value="valueOculto" />
+            <caption>
+                Modificacion de Ventas
+            </caption>
+            <tr>
+                <td class="columna">Id Producto</td>
+                <td>
+                    <input name="idProducto" id="idproducto" type="number" placeholder="id s" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="columna">Nombre</td>
+                <td>
+                    <input id="nombre" type="text" placeholder="Nombre" required onfocus="this.select()">
+
+                </td>
+            </tr>
+
+            <tr>
+                <td class="columna">Precio Unitario</td>
+                <td>
+                    <input id="precioU" type="number" placeholder="Precio" required onfocus="this.select()">
+
+            </tr>
+            <tr>
+                <td>
+                    <label for="r">resultado:</label><input type="text" id="r"><br>
+                </td>
+
+            </tr>
+
+            <tr style="text-align: center">
+                <td>
+                    <input type="reset" value="Limpiar" class="default">
+                </td>
+                <td>
+                    <input type="button" onclick="modificarv()" value="Modificar">
+                </td>
+
+            </tr>
+        </table>
+
+
+
+
+        <!-- <label for="r">resultado:</label><input type="text" id="r"><br>-->
+        <!-- <input type="button" onclick="modificarv()" value="Modificar">-->
 
     </form>
     <script src="/cliente/cliente-SOAP/soap.js"></script>
 </body>
+
 
 </html>
